@@ -1,22 +1,28 @@
-### BACKEND DEVELOPMENT
+###BACKEND DEVELOPMENT
 
-1.create git repo
-   git init
+Create Git repository (git init)
 
-2.add .gitignore
+Add .gitignore file (ignore node_modules, .env)
 
-3.create .env file for environment variables,read data from .env
+Create .env file for environment variables and configure dotenv
 
-4.generate package.json
+Initialize Node.js project and generate package.json (npm init -y)
 
-5 create express app
+Install required dependencies (express, mongoose, dotenv, etc.)
 
-6 install mongoose-CONNECT TO DATABASE
+Create Express application and configure server
 
-7 add middlewares(body parser,err handling middlewares)
+Connect to MongoDB using Mongoose
 
-8 design schemas and create models
+Add middlewares (JSON body parser, error handling middleware)
 
+Design schemas and create Mongoose models
+
+Create RESTful API routes (CRUD operations)
+
+Implement authentication using JWT (optional but recommended)
+
+Test APIs and handle errors properly
 
 
 client-------->login route------>store token in cookie-->tookie
