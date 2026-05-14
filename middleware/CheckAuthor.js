@@ -1,4 +1,4 @@
-import { usermodel } from "../schemas/usermodel.js";
+import { UserModel } from "../schemas/UserModel.js";
 export const checkauthor = async (req, res, next) => {
   let authid = req.params?.id || req.body?.author;
 
