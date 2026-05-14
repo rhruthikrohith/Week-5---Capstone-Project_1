@@ -1,6 +1,6 @@
 import exp from "express";
-import { verifytoken } from "../middleware/verifytoken.js";
-import { usermodel } from "../schemas/usermodel.js";
+import { VerifyToken } from "../middleware/VerifyToken.js";
+import { UserModel } from "../schemas/UserModel.js";
 
 export const adminroute = exp.Router();
 
