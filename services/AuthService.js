@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
-import { usermodel } from "../schemas/usermodel.js";
+import { UserModel } from "../schemas/UserModel.js";
 import { hash } from "bcryptjs";
 //register function
 
