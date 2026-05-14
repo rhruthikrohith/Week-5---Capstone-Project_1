@@ -1,6 +1,6 @@
 import exp from "express";
 import { register, authenticate } from "../services/AuthService.js";
-import { UserModel } from "../schemas/usermodel.js";
+import { UserModel } from "../schemas/UserModel.js";
 import { ArticleModel } from "../schemas/ArticleModel.js";
 import { CheckAuthor } from "../middleware/CheckAuthor.js";
 import { VerifyToken } from "../middleware/VerifyToken.js";
